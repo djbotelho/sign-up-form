@@ -1,0 +1,160 @@
+html {
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+@font-face {
+    font-family: customFont;
+    src: url(assets/Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    flex: 1 ;
+}
+
+/* section {
+    width: 50%;
+} */
+
+.odin {
+    background-image: url(assets/halie-west-25xggax4bSA-unsplash.jpg);
+    width: 50%;
+    height: 100VH;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px ;
+}
+
+.main div {
+    height: 33%;;
+}
+
+
+.logo h1 {
+    color: white;
+    font-family: customFont;
+    font-size: 3rem;
+    font-size: 70px;
+}
+.logo {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 90%;
+    
+}
+
+footer {
+    margin-bottom: 0;
+    margin: 0 auto;
+    color: white;
+    align-self:last baseline;
+}
+
+.one {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 40px;
+}
+
+.two {
+    
+    padding-left: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+
+.three {
+    padding-left: 40px;
+}
+
+
+input {
+    border: 1px solid #E5E7EB;
+    margin-top: 5px;
+    height: 23px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+input:invalid {
+    border: 1px solid red;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.form-group div {
+    flex: 1;
+    margin-right: 10px;
+}
+.form-group div:last-child {
+    margin-right: 0;
+}
+label, input {
+    display: block;
+    
+}
+
+label {
+    font-size: 12px;
+}
+
+.one p {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.two h1 {
+
+}
+
+a {
+    color: #596D48;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+button {
+    background: #596D48;
+    border-radius:7px  ;
+    padding: 8px;
+    border: none;
+    width: 200px;
+    height: 45px;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0px 2px rgba(0 , 0, 0, 0.3);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
